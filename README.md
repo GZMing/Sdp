@@ -1,22 +1,11 @@
-# Sdp.py
-*Simle Docker PaaS, Version 1.1; Design by Python.*
-
+# SPC
+*Sdp Private Cloud, version 0.1*
 
 **[English]**
 
-All profiles are complied with ini or JSON format!
-
-All of the code is completed by Python!
-
-They walked through the entire system of community-based RHEL version!
-
-
 **[中文]**
 
-所有的配置文件皆遵从ini或JSON格式！
-
-所有的代码均由Python完成！
-
-整个系统要跑通基于RHEL的社区版！
-
+私有云：
+  1.资源申请
+  2.资源调度
 

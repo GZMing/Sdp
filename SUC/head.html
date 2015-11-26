@@ -1,0 +1,32 @@
+<link href="static/favicon.ico" type="image/x-icon" rel=icon>
+<link href="static/favicon.ico" type="image/x-icon" rel="shortcut icon">
+<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<link rel="stylesheet" type="text/css" href="static/main.css" />
+<link rel="stylesheet" type="text/css" href="static/bgstretcher.css" />
+<script type="text/javascript" src="static/jquery-1.5.2.min.js"></script>
+<script type="text/javascript" src="static/bgstretcher.js"></script>
+
+<script type="text/javascript">
+	$(document).ready(function(){
+        //  Initialize Backgound Stretcher	   
+		$('BODY').bgStretcher({
+			images: ['static/imgs/img1.jpg', 'static/imgs/img2.jpg', 'static/imgs/img3.jpg', 'static/imgs/img4.jpg', 'static/imgs/img5.jpg'],
+			imageWidth: 1024, 
+			imageHeight: 768, 
+			slideDirection: 'N',
+			slideShowSpeed: 1000,
+			transitionEffect: 'fade',
+			sequenceMode: 'normal',
+			buttonPrev: '#prev',
+			buttonNext: '#next',
+			pagination: '#nav',
+			anchoring: 'left center',
+			anchoringImg: 'left center'
+		});
+		
+	});
+</script>
+
+<script type="text/javascript" src="static/main.js"></script>
+
